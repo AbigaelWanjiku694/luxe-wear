@@ -3,90 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Luxe Wear</title>
-  <link rel="stylesheet" href="css/style.css"/>
+  <title>LUXE Wear</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1 class="logo">LUXE WEAR</h1>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <div class="main">
+  
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#collection">COLLECTION</a></li>
+        <li class="logo-item"><h2 class="logo">LUXE</h2></li>
+        <li><a href="#lookbook">LOOKBOOK</a></li>
+        <li><a href="#journal">JOURNAL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
-      <button class="menu-toggle" id="menu-toggle">☰</button>
     </nav>
-  </header>
-
-
-  <section class="hero">
-    <h2>Dare to Wear Luxe</h2>
-    <p>Fashion that speaks bold and chic.</p>
-    <button onclick="scrollToShop()">Shop Now</button>
-  </section>
-
-  <section class="about" id="about">
-    <h2>About Luxe Wear</h2>
-    <p>
-      <strong>Luxe Wear</strong> is a premier fashion brand dedicated to empowering young women and men with bold, elegant, and trend-setting styles. 
-      We believe fashion should be an expression of confidence, creativity, and comfort. Our collections are crafted for every body type, every occasion, and every personality.
-    </p>
-    <p>
-      Inspired by global fashion icons and designed with local flair, Luxe Wear offers a curated selection of streetwear, chic formal wear, and luxury casuals.
-      We source quality fabrics, partner with ethical manufacturers, and bring you seasonal drops that don’t just follow trends—they set them.
-    </p>
-    <p>
-      Join our movement of fearless fashionistas. Be seen. Be bold. Be Luxe.
-    </p>
-  </section>
-
-  <section class="products" id="shop">
-    <h2>Trending Styles</h2>
-    <div class="product-grid">
-      <div class="card">
-        <img src="assets/model1.jpg.jpeg" alt="Satin Blazer"/>
-        <h3>Luxe Satin Blazer</h3>
-        <p>Ksh 4,999</p>
+    <section id="hero" class="section-wrapper hero">
+      <div class="container hero-content">
+        <h1>Elevated Fashion Essentials<br><span>Designed for the Bold</span></h1>
+        <p>Discover timeless pieces crafted with elegance and intention.</p>
+        <a href="#shop"><button class="btn">Shop Now</button></a>
       </div>
-      <div class="card">
-        <img src="assets/model2.jpg.jpeg" alt="Bodycon Dress"/>
-        <h3>Bold Bodycon Dress</h3>
-        <p>Ksh 3,499</p>
+    </section>
+    <section id="about" class="section-wrapper info-wrapper">
+      <div class="container">
+        <div class="info">
+          <h4>SEASONAL DROP</h4>
+          <h2>Summer 2025 Collection</h2>
+          <p>Breezy silhouettes, daring cuts, and elevated tones.</p>
+          <a href="#collection"><button class="btn">Explore</button></a>
+        </div>
+        <div class="info">
+          <h4>JOIN THE CLUB</h4>
+          <h2>LUXE Insider Access</h2>
+          <p>Be the first to preview drops, exclusive invites, and more.</p>
+          <button class="btn">Sign Up</button>
+        </div>
       </div>
-      <div class="card">
-        <img src="assets/model3.jpg.jpeg" alt="Streetwear Set"/>
-        <h3>Urban Streetwear Set</h3>
-        <p>Ksh 5,299</p>
+    </section>
+    <section id="lookbook" class="section-wrapper info-wrapper">
+      <div class="container">
+        <div class="info">
+          <h4>LOOKBOOK</h4>
+          <h2>Effortless Elegance</h2>
+          <p>Curated styling guide featuring this season's statement looks.</p>
+          <button class="btn">View Lookbook</button>
+        </div>
+        <div class="info2">
+          <img src="assets/model1.jpg.jpeg" alt="Model in Luxe Outfit" />
+        </div>
       </div>
-      <div class="card">
-        <img src="assets/model4.jpg.jpeg" alt="Denim"/>
-        <h3>Statement Denim</h3>
-        <p>Ksh 3,899</p>
+    </section>
+    <section id="collection" class="section-wrapper">
+      <div class="container">
+        <h2>OUR PIECES</h2>
+        <p>Crafted for Confidence, Defined by Detail</p>
       </div>
-      <div class="card">
-        <img src="assets/model5.jpg.jpeg" alt="Evening Gown"/>
-        <h3>Red Carpet Gown</h3>
-        <p>Ksh 6,750</p>
+    </section>
+    <section class="section-wrapper info-wrapper">
+      <div class="container">
+        <div class="info">
+          <h4>TIMELESS DESIGN</h4>
+          <h2>Signature Staples</h2>
+          <p>Structured blazers to silk sets that elevate every wardrobe.</p>
+          <button class="btn">View Collection</button>
+        </div>
+        <div class="info">
+          <h4>TAILORED FOR YOU</h4>
+          <h2>Custom Sizing & Fits</h2>
+          <ul>
+            <li>✅ Personalized fittings</li>
+            <li>✅ Complimentary alterations</li>
+            <li>✅ Sustainable practices</li>
+          </ul>
+          <button class="btn">Customize Now</button>
+        </div>
       </div>
-      <div class="card">
-        <img src="assets/model6.jpg.jpeg" alt="Streetwear"/>
-        <h3>Cool Crop Hoodie</h3>
-        <p>Ksh 2,999</p>
+    </section>
+    <section id="journal" class="section-wrapper hero3">
+      <div class="container hero-content">
+        <h1>Style Portal<br><span>Track Your Orders</span></h1>
+        <p>Manage purchases and schedule consultations.</p>
+        <button class="btn">Enter Dashboard</button>
       </div>
-    </div>
-  </section>
+    </section>
+    <section id="shop" class="section-wrapper products">
+      <div class="container">
+        <h2>Trending Styles</h2>
+        <div class="product-grid">
+          <div class="card">
+            <img src="assets/model2.jpg.jpeg" alt="Bodycon Dress"/>
+            <h3>Bold Bodycon Dress</h3>
+            <p>Ksh 3,499</p>
+          </div>
+          <div class="card">
+            <img src="assets/model3.jpg.jpeg" alt="Streetwear Set"/>
+            <h3>Urban Streetwear Set</h3>
+            <p>Ksh 5,299</p>
+          </div>
+          <div class="card">
+            <img src="assets/model4.jpg.jpeg" alt="Denim"/>
+            <h3>Statement Denim</h3>
+            <p>Ksh 3,899</p>
+          </div>
+          <div class="card">
+            <img src="assets/model5.jpg.jpeg" alt="Evening Gown"/>
+            <h3>Red Carpet Gown</h3>
+            <p>Ksh 6,750</p>
+          </div>
+          <div class="card">
+            <img src="assets/model6.jpg.jpeg" alt="Crop Hoodie"/>
+            <h3>Cool Crop Hoodie</h3>
+            <p>Ksh 2,999</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section-wrapper contact-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-  <footer id="contact">
-    <p>© 2025 Luxe Wear. All Rights Reserved.</p>
-    <div class="socials">
-      <a href="#">Instagram</a>
-      <a href="#">Facebook</a>
-      <a href="#">TikTok</a>
-    </div>
-  </footer>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required />
 
-  <script src="js/script.js"></script>
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
