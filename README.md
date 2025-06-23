@@ -9,7 +9,7 @@
 | Color Name       | Hex        | Purpose                                          |
 |------------------|------------|--------------------------------------------------|
 | Burnt Peach      | `#ffe6d8`  | Hero & journal sections — warm, soft welcome    |
-| Orchid Mauve     | `#d8b4dd`  | Section wrapper background — feminine & premium |
+| pink             | `#ffc0cb`  | Section wrapper background — feminine & premium |
 | Gold Accent      | `#f4d03f`  | Highlighted headings and call-to-action emphasis |
 | Deep Charcoal    | `#111111`  | CTA buttons and strong text contrast            |
 | White            | `#ffffff`  | Product card background and input fields        |
