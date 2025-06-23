@@ -1,59 +1,65 @@
-# Luxe Wear – Responsive Fashion Brand Website
+# Luxe Wear – Final Responsive Project
 
-Welcome to the **Luxe Wear** project – a vibrant, bold, and fully responsive fashion brand site designed to celebrate creativity, elegance, and self-expression.
+**Luxe Wear** is a bold, fashion-forward clothing brand website built to meet modern web design standards across all devices. This is a fully responsive site with a unique, vibrant brand identity and clear divergence from the original mockup, especially in branding, color, layout structure, and responsiveness.
+
+---
 
 ## 🎨 Color System
 
-| Color Name       | Hex       | Purpose                        |
-|------------------|-----------|--------------------------------|
-| Hot Pink         | `#ff3e80` | Primary brand color (buttons, highlights) |
-| Charcoal Black   | `#1e1e2f` | Navigation and footer backgrounds |
-| Gold Accent      | `#ffd166` | Secondary/Accent color (logos, hover effects) |
-| White/Light Gray | `#f9f9f9` | Backgrounds, section dividers |
+| Color Name       | Hex        | Purpose                                          |
+|------------------|------------|--------------------------------------------------|
+| Burnt Peach      | `#ffe6d8`  | Hero & journal sections — warm, soft welcome    |
+| Orchid Mauve     | `#d8b4dd`  | Section wrapper background — feminine & premium |
+| Gold Accent      | `#f4d03f`  | Highlighted headings and call-to-action emphasis |
+| Deep Charcoal    | `#111111`  | CTA buttons and strong text contrast            |
+| White            | `#ffffff`  | Product card background and input fields        |
 
-### 🎯 Rationale
-
-We chose a bold **hot pink** to reflect empowerment and vibrance, while **charcoal** brings elegance. **Gold accents** add a premium, fashionable feel — all aligning with the "Luxe" theme.
-
----
-
-## 📱 Breakpoint Logic
-
-The site adapts responsively using modern media queries:
-
-- **Large Screens (LG ≥ 1024px):** 3-column product grid layout.
-- **Medium Screens (768px – 1023px):** Switches to 2-column grid.
-- **Small Screens (<768px):** 1-column layout with mobile nav hamburger toggle.
+**Color Rationale:**
+- **Burnt Peach** sets a warm, welcoming tone for first-time visitors.
+- **Orchid Mauve** adds a modern, elegant fashion feel throughout wrapped sections.
+- **Gold Accent** draws attention to call-to-actions and headings with a luxe finish.
+- **Deep Charcoal** ensures clarity and accessibility on light backgrounds.
 
 ---
 
-## 🎨 Creative Divergence from Mockup
+## 📱 Responsive Breakpoints
 
-- Moved **"About Us"** above the products to tell a brand-first story.
-- Used a **gradient hero section** and circular buttons for visual freshness.
-- Added hover animations and **custom box shadows** for better interactivity.
-- Introduced **vibrant, bold colors** instead of minimal tones.
-
----
-
-## 🚀 Hosted Project Links
-
-- 🔗 **Live Site on Vercel**: [https://luxe-wear.vercel.app](https://luxe-wear.vercel.app)
-- 💻 **GitHub Repository**: [https://github.com/yourusername/luxe-wear](https://github.com/yourusername/luxe-wear)
-
-> Replace links above with your actual deployed and repository URLs.
+- **LG (≥ 1024px)**: Preserves the original mockup's layout with horizontal scrollable product cards.
+- **MD (768px–1023px)**: Adjusted to stacked flex-column layouts and two-column sections.
+- **SM (< 768px)**: Fully stacked sections, single-column flow, mobile-friendly buttons and spacing.
 
 ---
 
-## 📂 Project Structure
+## Creative Divergence from the Mockup
 
-```plaintext
-luxe-wear/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-├── index.html
-├── README.md
+- Introduced a **luxury-inspired color palette** (peach, orchid, gold).
+- Added **rounded card-style wrappers** for all major sections (About, Lookbook, Journal, etc.).
+- Rebranded content to **“LUXE Wear”**, representing bold, confident youth fashion.
+- Applied **smooth scrolling, sticky navigation, and active link highlights** for improved UX.
+- Integrated a **scrollable product gallery** using `scroll-snap` for mobile responsiveness.
+
+---
+
+## Live Site & Repository
+
+- 🔗 **Live URL**: [https://luxe-wear.vercel.app](https://luxe-wear.vercel.app)
+- 📂 **GitHub Repository**: [https://github.com/AbigaelWanjiku694/luxe-wear](https://github.com/AbigaelWanjiku694/luxe-wear)
+
+
+
+## Tech Stack
+
+- **HTML5, CSS3** (Flexbox, Scroll Snap, Responsive Layouts)
+- **JavaScript** (Smooth Scroll, Sticky Nav, Active Links)
+- **Mobile-First Design Approach**
+- **Deployed via Vercel**
+
+
+
+## ✅ Author
+
+**Abigael Wanjiku**  
+Final Web Development Project  
+
+**Contact Details**:
+Email: abigaelwanjiku694@gmail.com
